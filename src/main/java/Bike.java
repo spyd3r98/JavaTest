@@ -20,6 +20,7 @@ public class Bike {
 
     public String toString()
     {
+        System.out.println("Hello");
         return ("No of gears are " + gear + "\n"
                 + "speed of bicycle is " + speed);
     }
